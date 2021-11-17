@@ -1,0 +1,42 @@
+body {
+  background-color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #66bfbf;
+  background-color: teal;
+  width: 35%;
+}
+
+h3 {
+  color: #66bfbf;
+}
+
+/* 
+CSS Syntax:
+  selector {property:value;}
+   who?      what?    how?
+
+  example
+  h1 {color:red;} turns h1 color to red
+
+
+Both used to identify which elements you want to style.
+Use class to apply the same style to a group of related items.
+Use ID to apply a specific style to a single element on webpage.
+Name vs Passport
+Class and ID more specific than tag selectors.
+Elements can only have 1 ID, but can have more than 1 class. 
+
+Pseudo classes have colon before them and affects an elements state.
+i.e. :hover
+Changes the elements state when a mouse is hovering over the element.
+*/
