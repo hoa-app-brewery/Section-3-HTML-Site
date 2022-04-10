@@ -1,0 +1,136 @@
+<!-- MDN webdocs for documentation-->
+
+<!--boilerplate code: reusable code template-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--meta tags give metadata about HTML document-->
+    <!-- utf-8 is a character set encoder-->
+    <title>Testing Webpage</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--devdocs.io-->
+  </head>
+
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <img src="images/cartooncube.jpg" alt="picture of a cube" />
+        </td>
+        <td>
+          <h1>My Name is Name</h1>
+          <p>
+            <em
+              >Founder and CTO of
+              <strong
+                ><a href="https://en.wikipedia.org/wiki/Main_Page"
+                  >Random Business Here</a
+                ></strong
+              ></em
+            >.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem et
+            voluptates consectetur neque suscipit doloribus, magni, libero
+            ducimus quaerat delectus id numquam repudiandae!
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <hr style="height: 0px" />
+    <h3>Education and Schools</h3>
+    <ul>
+      <li>Some school in Texas</li>
+      <li>Some school in Rhode Island</li>
+      <li>Some school in Massachusetts</li>
+    </ul>
+
+    <hr />
+    <h3>Work Experience</h3>
+    <!--<thead> </thead>
+        <tbody> </tbody>
+        <tfoot> </tfoot>-->
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Job Title</th>
+      </tr>
+      <tr>
+        <td>2010-2013</td>
+        <td>Title A Here</td>
+      </tr>
+      <tr>
+        <td>2013-2017</td>
+        <td>Title B Here</td>
+      </tr>
+    </table>
+    <!--Deprecated features: no longer recommend using.
+    HTML for structure
+    CSS for styling
+    JS for behavior-->
+    <hr />
+    <h3>Skills</h3>
+    <table cellspacing="3" , border="1px">
+      <!--red shows deprecated code^-->
+      <tr>
+        <td>
+          <table border="0">
+            <tr>
+              <td>HTML</td>
+              <td>⭐⭐⭐⭐☆</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>⭐⭐☆ ☆ ☆</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table border="0">
+            <tr>
+              <td>MongoDB</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+            <tr>
+              <td>Express JS</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+            <tr>
+              <td>Node JS</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table border="0">
+            <tr>
+              <td>Angular</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+            <tr>
+              <td>Vue</td>
+              <td>⭐☆ ☆ ☆ ☆</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <a href="hobbies.html">My Hobbies</a>
+    <!--links to a new page called My Hobbies-->
+    <br />
+    <a href="contactme.html">Contact Info</a>
+  </body>
+</html>
