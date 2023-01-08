@@ -4,7 +4,7 @@
 <div align="center">
 	<h1>HTML Site</h1>
 	<p>A simple site built with HTML to practice.</p>
-	<a href="/">Live App Link</a> &#x2022 <a href="/">GitHub Repo Link</a>
+	<!--- <a href="/">Live App Link</a> &#x2022 <a href="/">GitHub Repo Link</a> --->
 </div>
 
 
